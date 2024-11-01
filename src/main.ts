@@ -8,6 +8,6 @@ app.use("/", routes);
 
 (async () => {
     app.listen(config.port, () => {
-        console.log(`Server is runnin on port ${config.port}`);
+        console.log(`Server is running on port ${config.port}`);
     });
 })();
